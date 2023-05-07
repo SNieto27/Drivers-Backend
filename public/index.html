@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peticiones</title>
+</head>
+<body>
+    <form action="/guardar" method="get">
+        Nombre: <input name="nombre" placeholder="Nombre" type="text"><br>
+        Apellido: <input name="apellido" placeholder="Nombre" type="text"><br>
+        Fecha de Nacimiento: <input type="date" name="fecha" placeholder="Fecha de nacimiento">
+        País: <select name="pais">
+            <option>Honduras</option>
+            <option>Mexico</option>
+            <option>Panama</option>
+        </select><br>
+        <button name="guardar" type="submit">Guardar</button>
+    </form>
+</body>
+</html>
